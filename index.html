@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soddalashtirilgan Card Dizayn</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <h1>Dunyo Mo‘jizalari</h1>
+      <div>
+        <label for="sortSelect">Sort by: </label>
+        <select id="sortSelect">
+          <option value="default">Default</option>
+          <option value="az">Title A → Z</option>
+          <option value="za">Title Z → A</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="cards-container" id="cardsContainer">
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop"
+          alt="Card Image"
+        />
+        <div class="content"  >
+          <h3 class="title">Ocean Vibes</h3>
+          <p class="desc">
+            Chiroyli dengiz manzarasi va tabiatning osoyishtaligini his eting.
+            Bu card namunasi rasm, ism, tavsif va tugma bilan oddiy ko‘rinishda
+            ishlangan.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
